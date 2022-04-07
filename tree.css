@@ -1,0 +1,80 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+  font-family: Poppins;
+  font-weight: 300 e 600;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  overflow: hidden;
+
+  background-image:url(https://st2.depositphotos.com/1809653/6986/i/600/depositphotos_69869535-stock-photo-sunflower-pattern.jpg);
+  
+}
+
+.card{
+  max-height: 90%;
+  padding: 20px;
+  background-color:#f9de24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.links{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+    
+}
+
+.links li{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+.links li a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;  
+  border: 4px solid black;
+}
+
+.perfil img {
+  object-fit: fill;
+  width: 100%;
+
+}
+
+.icons{
+  border: 2px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+     
+}
+
